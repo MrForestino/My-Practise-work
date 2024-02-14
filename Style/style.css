@@ -2,7 +2,8 @@
 	--color-blue:#2196F3;
 	--color-black:#212121;
 	--color-white:#ffffff;
-	--color-gray:#F5F4FA;
+	--color-light-gray:#F5F4FA;
+	--color-gray:#757575;
 	--color-purple:#24242B;
 }
 *{
@@ -15,20 +16,37 @@ body{
 	font-size: 14px;
 	color: var(--color-black);
 }
-
+header{
+	padding: 10px 0px 20px 0px;
+	display:flex;  
+}
+h2{
+	text-align: center;
+}
 a{
 	text-decoration: none;
+	color:var(--color-black);
 }
-ul > li{
-	text-decoration: none;
+li{
+	list-style-type: none;
 }
+header li{
+	display: inline;
+}
+.header_ul_lists{
 
-
+	text-align: right;
+}
+.header_ul_li_link{
+	margin-right: 100px;
+}
 .span_blue_title, .span_black_title,.span_white_title {
 	font-size: 26px;
 }
 
-
+.header_link_title{
+	margin: 0px 1000px 0px 120px;
+} 
 .span_blue_title{
 	color: var(--color-blue);
 }
@@ -50,16 +68,17 @@ ul > li{
 	padding: 20px 0px 50px 0px;
 }
 .main_section_div_works, .main_section_div_aboutme {
-	display: flex;
-	flex-direction: row;
-	justify-content: space-around;
+	display:flex;
+	justify-content: center;
+	flex-direction: raw;
 }
 
 .main_section_div_works01, .main_section_div_works02, .main_section_div_works03, .main_section_div_works04{
-	width: 300px;
-	height: 300px;
+	width: 200px;
+	height: 200px;
 	border-radius: 15px;
 	background-color: var(--color-white);
+	margin: 30px;
 }
 
 
@@ -75,7 +94,7 @@ button{
 
 
 .main_section_aboutme{
-	background-color: var(--color-gray);
+	background-color: var(--color-light-gray);
 	text-align: center;
 }
 .main_section_div_aboutme01, .main_section_div_aboutme02{
@@ -83,6 +102,9 @@ button{
 	height: 300px;
 	border-radius: 15px;
 	background-color: var(--color-white);
+}
+.ul_list_link_address-email, .ul_list_link_address-tel{
+	color:var(--color-gray);
 }
 footer{
 	background-color: var(--color-purple);
