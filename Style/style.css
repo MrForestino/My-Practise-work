@@ -1,0 +1,89 @@
+:root{
+	--color-blue:#2196F3;
+	--color-black:#212121;
+	--color-white:#ffffff;
+	--color-gray:#F5F4FA;
+	--color-purple:#24242B;
+}
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding:0;
+}
+body{
+	font-family: Readex Pro, sans-serif;
+	font-size: 14px;
+	color: var(--color-black);
+}
+
+a{
+	text-decoration: none;
+}
+ul > li{
+	text-decoration: none;
+}
+
+
+.span_blue_title, .span_black_title,.span_white_title {
+	font-size: 26px;
+}
+
+
+.span_blue_title{
+	color: var(--color-blue);
+}
+.span_black_title{
+	color: var(--color-black);
+}
+.span_white_title {
+	color: var(--color-white);
+}
+
+
+.main_section_myworks{
+	text-align: center;
+	color: var(--color-white);
+	background-color: var(--color-purple);
+}
+
+.main_section_h2_white{
+	padding: 20px 0px 50px 0px;
+}
+.main_section_div_works, .main_section_div_aboutme {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.main_section_div_works01, .main_section_div_works02, .main_section_div_works03, .main_section_div_works04{
+	width: 300px;
+	height: 300px;
+	border-radius: 15px;
+	background-color: var(--color-white);
+}
+
+
+button{
+	font-family: Readex Pro;
+	font-size: 26px;
+	width: 220px;
+	height: 50px;
+	border-radius: 10px;
+	background-color: var(--color-blue);
+	margin: 50px 0px 20px 0px;
+}
+
+
+.main_section_aboutme{
+	background-color: var(--color-gray);
+	text-align: center;
+}
+.main_section_div_aboutme01, .main_section_div_aboutme02{
+	width: 300px;
+	height: 300px;
+	border-radius: 15px;
+	background-color: var(--color-white);
+}
+footer{
+	background-color: var(--color-purple);
+}
