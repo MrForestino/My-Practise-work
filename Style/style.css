@@ -48,11 +48,14 @@ footer{
 
 /* ---- HEADER TAGS ---- */
 .header_ul_lists{
-
+	
 	text-align: right;
 }
 .header_ul_li_link{
 	margin-right: 100px;
+}
+.header_ul_li_link:hover{
+	color: var(--color-blue);
 }
 .span_blue_title, .span_black_title,.span_white_title {
 	font-size: 24px;
