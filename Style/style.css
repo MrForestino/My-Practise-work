@@ -54,7 +54,7 @@ footer{
 .header_ul_li_link{
 	margin-right: 100px;
 }
-.header_ul_li_link:hover{
+.header_ul_list:hover{
 	color: var(--color-blue);
 }
 .span_blue_title, .span_black_title,.span_white_title {
