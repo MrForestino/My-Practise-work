@@ -48,11 +48,26 @@ footer{
 
 /* ---- HEADER TAGS ---- */
 .header_ul_lists{
-
+	
 	text-align: right;
 }
 .header_ul_li_link{
 	margin-right: 100px;
+}
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+.header_ul_li_link:hover{
+=======
+.header_ul_list:hover{
+>>>>>>> 9efd48be160024cad53c3b3105fa55b59d8af930
+=======
+.header_ul_list:hover{
+>>>>>>> 9efd48be160024cad53c3b3105fa55b59d8af930
+=======
+.header_ul_list:hover{
+>>>>>>> 9efd48be160024cad53c3b3105fa55b59d8af930
+	color: var(--color-blue);
 }
 .span_blue_title, .span_black_title,.span_white_title {
 	font-size: 24px;
@@ -95,7 +110,7 @@ footer{
 	height: 300px;
 	border-radius: 15px;
 	background-color: var(--color-white);
-	margin: 30px;
+	margin: 30px ;
 }
 
 
@@ -183,7 +198,7 @@ button{
 	height: 300px;
 	border-radius: 15px;
 	background-color: var(--color-white);
-	margin: 30px 0px 100px;
+	margin: 30px 30px 100px;
 
 }
 
