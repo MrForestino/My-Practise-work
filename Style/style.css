@@ -11,11 +11,14 @@
 	--color-light-gray:#F5F4FA;
 	--color-gray:#757575;
 	--color-purple:#24242B;
+	--color-black-gray:#626262;;
 }
 body{
 	font-family: Readex Pro, sans-serif;
 	font-size: 14px;
 	color: var(--color-black);
+
+
 }
 header{
 	padding: 10px 0px 20px 0px;
@@ -58,10 +61,13 @@ footer{
 .header_ul_li_link:hover{
 	color: var(--color-blue);
 }
-.span_blue_title, .span_black_title,.span_white_title {
+.span_blue_title, .span_black_title,.span_white_title,.span_black-gray_title {
 	font-size: 24px;
 }
-
+.span_black-gray_title{
+	font-family: Playfair Display, sans-serif;
+	color: var(--color-black-gray);
+}
 .header_link_title{
 	margin: 0px 1000px 0px 120px;
 } 
@@ -101,7 +107,6 @@ footer{
 	background-color: var(--color-white);
 	margin: 30px ;
 }
-
 
 button{
 	font-family: Readex Pro;
@@ -144,7 +149,7 @@ button{
 .section_div_aboutme02{
 	width: 400px;
 	height:400px;
-	border-radius: 52px;
+	border-radius: 20px;
 	margin: 126px 223px 120px 97px;
 	background-color: var(--color-purple);
 }
@@ -159,7 +164,7 @@ button{
 .section_div_aboutme03{
 	width: 1600px;
 	height:400px;
-	border-radius: 52px;
+	border-radius: 20px;
 	margin: 0px 97px 55px 97px;
 	background-color: var(--color-purple);
 }
@@ -190,7 +195,9 @@ button{
 	margin: 30px 30px 100px;
 
 }
-
+.main_section_div_whatido03, .main_section_div_whatido04{
+	opacity:0.3;
+}
 .main_section_div_whatido_image{
 	padding: 40px;
 }
